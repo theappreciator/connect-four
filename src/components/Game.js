@@ -1,13 +1,20 @@
 import React from 'react';
 
 import GameBoard from './GameBoard';
+import utils from "../utils";
 
 const Game = props => {
 
+    
+    const rows = 5;
+
+
+
+
     return (
-      <div className="connect-four-container">
+      <div className="game-container">
         <h1>Connect Four</h1>
-        <GameBoard />
+        <GameBoard key="1" rows={rows}/>
       </div>
     );
 }

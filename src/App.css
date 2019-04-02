@@ -31,3 +31,40 @@
     transform: rotate(360deg);
   }
 }
+
+.game-board {
+  /* display: inline-block; */
+}
+
+.game-board-row {
+  display: block;
+}
+
+.game-slot {
+  width: 100px;
+  height: 100px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+}
+
+.game-board-row .game-slot:first-child {
+  border-left: 1px solid #ccc;
+}
+
+.game-board .game-board-row:first-of-type > .game-slot{
+  border-top: 1px solid #ccc;
+}
+
+.token-container {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  padding: 10px;
+  border-left: 1px solid rgba(0,0,0,0);
+}
+
+.token-container button {
+  width: 50px;
+  height: 50px;
+}
