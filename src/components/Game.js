@@ -5,8 +5,8 @@ import utils from "../utils";
 
 const Game = props => {
 
-    
-    const rows = 5;
+
+    const rows = 6;
 
 
 
